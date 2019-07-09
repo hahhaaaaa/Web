@@ -17,7 +17,7 @@
 ### CSS初始化（基本样式）
 
 
-京东网站有一些基本样式，在各个页面中都要用到：（将这些基本样式copy到css.base里面去）
+京东网站有一些基本样式，在各个页面中都要用到：（将这些基本样式copy到base.css里面去）
 
 base.css中的公共的部分：
 
@@ -119,7 +119,7 @@ s,i,em{font-style:normal;text-decoration:none;}  /*去掉i标签和em的斜体�
 
 （2）其他属性：
 
-我们给`fieldset, img,input,button`等标签设置了`outline-style:none`，意思去掉轮廓（比如去掉输入框外面的蓝边框，去掉之后，蓝色没有了，但是黑色依然存在）。去掉的原因是：首先，轮廓不好看；其次，在google浏览器和在火狐浏览器上，渲染的效果不同。
+我们给`fieldset, img,input,button`等标签设置了`outline-style:none`，意思去掉轮廓（比如去掉输入框外面的蓝边框，去掉之后，蓝色没有了，但是黑色依然存在）。去掉的原因是：首先，轮廓不好看；其次，在Chrome浏览器和在火狐浏览器上，渲染的效果不同。
 
 img标签中，我们通过`vertical-align:middle`属性**去掉图片底侧默认的3像素空白缝隙**，还有一种方法可以达到效果，那就是`display: block`。
 
